@@ -1,0 +1,104 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: white;
+    line-height: 1.6;
+    padding: 0 10%;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #8A2BE2; /* Roxo */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #8A2BE2;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Seções dos deuses */
+.section-deus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.section-deus:nth-child(even) {
+    background-color: #4CAF50; /* Verde */
+}
+
+.section-deus:nth-child(odd) {
+    background-color: #2E8B57; /* Verde mais escuro */
+}
+
+.conteudo {
+    flex: 1;
+    padding: 0 30px;
+}
+
+.conteudo h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.conteudo p {
+    font-size: 1.1rem;
+    color: #dcdcdc;
+}
+
+/* Torres */
+.torre {
+    width: 30px;
+    height: 200px;
+    background-color: #8A2BE2;
+}
+
+.torre.esquerda {
+    border-radius: 10px 10px 0 0;
+}
+
+.torre.direita {
+    border-radius: 0 0 10px 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+}
+
+footer p {
+    color: #ccc;
+}
