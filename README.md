@@ -31,7 +31,7 @@
         <div class="torre esquerda"></div>
         <div class="conteudo">
             <h2>Poseidon</h2>
-            <p>Poseidon é o deus dos mares, dos terremotos e dos cavalos. Filho de Cronos e Reia, é irmão de Zeus e Hades. Com seu tridente, ele controla os mares e oceanos, sendo temido e reverenciado pelos navegantes da Grécia Antiga.</p>
+            <p>Poseidon é o deus dos mares, dos terremotos e dos cavalos. Filho de Cronos e Reia, é irmão de Zeus e Hades. Com seu tridente, ele controla os mares e oceanos, sendo temido e reverenciado elos navegantes da Grécia Antiga.</p>
         </div>
         <div class="torre direita"></div>
     </section>
